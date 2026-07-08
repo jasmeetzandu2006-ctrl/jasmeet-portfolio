@@ -2,6 +2,7 @@ import ScrollyCanvas from "@/components/ScrollyCanvas";
 import Overlay from "@/components/Overlay";
 import Projects from "@/components/Projects";
 import Tools from "@/components/Tools";
+import FrenchProgress from "@/components/FrenchProgress";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
 
       {/* The Projects Grid follows after the scroll animation is complete */}
       <Projects />
+      <FrenchProgress />
     </main>
   );
 }
